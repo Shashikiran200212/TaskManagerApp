@@ -39,7 +39,7 @@ export const TaskProvider = ({ children }: { children: ReactNode }) => {
     ]);
 
     const addTask = (task: Task) => {
-        setTasks(prev => [task, ...prev]); // Insert the new task at the top
+        setTasks(prev => [task, ...prev]);
     };
 
     const deleteTask = (index: number) => {
