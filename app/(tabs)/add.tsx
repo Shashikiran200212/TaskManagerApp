@@ -1,8 +1,8 @@
 // app/add.tsx
-import { View, Text, TextInput, Button, Alert, ScrollView } from 'react-native';
-import React, { useState } from 'react';
 import { useTaskContext } from '@/context/TaskContext';
 import { router } from 'expo-router';
+import { useState } from 'react';
+import { Alert, Button, ScrollView, Text, TextInput, View } from 'react-native';
 
 const Add = () => {
     const [title, setTitle] = useState('');

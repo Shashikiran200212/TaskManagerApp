@@ -1,6 +1,6 @@
+import { TaskProvider } from "@/context/TaskContext";
 import { Stack } from "expo-router";
 import './globals.css';
-import { TaskProvider } from "@/context/TaskContext";
 
 export default function RootLayout() {
   return (
@@ -11,7 +11,7 @@ export default function RootLayout() {
               options={{ headerShown: false }}
           />
           <Stack.Screen
-              name="movies/[id]"
+              name="tasks/[id]"
               options={{ headerShown: false }}
           />
         </Stack>
